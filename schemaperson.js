@@ -1,21 +1,6 @@
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "MusicEvent",
-  "location": {
-    "@type": "MusicVenue",
-    "name": "Chicago Symphony Center",
-    "address": "220 S. Michigan Ave, Chicago, Illinois, USA"
-  },
-  "name": "Shostakovich Leningrad",
-  "offers": {
-    "@type": "Offer",
-    "url": "/examples/ticket/12341234",
-    "price": "40",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  },
-  "performer": [
+   [
     {
       "@type": "MusicGroup",
       "name": "Chicago Symphony Orchestra",
