@@ -1,10 +1,13 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/link-juice-optimizer/public/js/
+Disallow: /archivo-javascript.js�
+Allow: /wp-admin/admin-ajax.php
 Noindex: https://www.elpinero.mx/investigan-red-de-trafico-de-fiats-notariales-en-oaxaca-cartel-del-despojo-involucrado/
 Noindex: https://cuartaplana.com/notaopi.php?n=50814
 Noindex: https://tiempodigital.mx/congelan-seis-notarias-publicas-por-irregularidades-en-la-expedicion-de-fiats-en-oaxaca/
 
 Sitemap: https://hector-horacio-orozco-delgado.github.io/ID/sitemap.xml
 
+User-agent: Googlebot
+Disallow: /nogooglebot/
